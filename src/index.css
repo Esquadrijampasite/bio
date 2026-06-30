@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "Fira Code", monospace;
+
+  --color-brand-orange: #E87A2A;
+  --color-brand-orange-hover: #D0651A;
+  --color-brand-gold: #B47C1C;
+  --color-brand-dark: #FFFFFF;
+  --color-brand-card: #F8FAFC;
+  --color-brand-card-border: #E2E8F0;
+}
+
+@layer utilities {
+  .text-shadow-premium {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+}
