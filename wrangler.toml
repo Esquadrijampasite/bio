@@ -7,3 +7,6 @@ directory = "./dist"
 
 [build]
 command = "npm run build"
+
+# wrangler.toml
+name = 'bio'
